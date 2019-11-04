@@ -2,7 +2,7 @@ const userApi = 'http://localhost:3000/users'
 
 
 function submitData(name, email) {
-    return fetch('http://localhost:3000/users', {
+    return fetch(userApi, {
         method: 'POST',
         headers: {
             "Content-Type": "application/json",
